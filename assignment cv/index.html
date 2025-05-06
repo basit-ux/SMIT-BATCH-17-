@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color-light: #f5f5f5;
+      --text-color-light: #222;
+      --bg-color-dark: #121212;
+      --text-color-dark: #eee;
+      --accent-color: 	#C08081;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Fira Code', monospace;
+      background-color: var(--bg-color-light);
+      color: var(--text-color-light);
+      transition: all 0.3s ease;
+      padding: 20px;
+    }
+
+    .dark-mode {
+      background-color: var(--bg-color-dark);
+      color: var(--text-color-dark);
+    }
+
+    .toggle-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: var(--accent-color);
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+    }
+
+    h1, h2, h3 {
+      color: var(--accent-color);
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      background: #ccc;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-btn" onclick="toggleTheme()">Toggle Theme</button>
+  <div class="container">
+      <img class="profile-pic" src="https://scontent.fkhi22-1.fna.fbcdn.net/v/t39.30808-6/495287587_704304622015413_6145106929798565449_n.jpg?stp=c0.185.720.720a_dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ZtUhXyC8t-IQ7kNvwEz2LWU&_nc_oc=AdnhpIeFqzVxGVCkAaUv6xaCnaVhfmvoBEXCbajFG3K-_JrRFbDLRx5BSDgWL3DU3Ew&_nc_zt=23&_nc_ht=scontent.fkhi22-1.fna&_nc_gid=GnIFlmjeLPcMNyR6SBH5og&oh=00_AfJv54XCF3xwPDSav7MSFGEdKQLxbCeHYO2MND1Jf3tKkQ&oe=68201F92" alt="">
+    <h1>Basit Khan</h1>
+    <h2>Motivated and passionate Web Developer</h2>
+    <p>Currently enrolled in <strong>Saylani Mass IT Training Program</strong>. Skilled in front-end technologies like HTML, CSS, JavaScript, and React.</p>
+
+    <div class="section">
+      <h3>About Me</h3>
+      <p>🌐 Web Designer | Developing websites using WordPress | Learning Front-End Development (SMIT - Saylani Mass IT Training)</p>
+    </div>
+
+    <div class="section">
+      <h3>Contact</h3>
+      <p>WhatsApp / Phone: 03170259432</p>
+      <p>GitHub: <a href="https://github.com/basit-ux" target="_blank">basit-ux</a></p>
+    </div>
+
+    <div class="section">
+      <h3>Learning Skills</h3>
+      <ul>
+        <li>Web Designing</li>
+        <li>HTML, CSS, JavaScript, React</li>
+        <li>WordPress</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Education</h3>
+      <p>Matric</p>
+    </div>
+  </div>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
+
+
