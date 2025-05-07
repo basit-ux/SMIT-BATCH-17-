@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Board</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    table {
+      border-collapse: collapse;
+      box-shadow: 10px  10px 10px 6px rgba(2,2,2,2.10);
+    }
+    td {
+      width: 70px;
+      height: 70px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .white {
+      background-color: white;
+    }
+    .black {
+      background-color: black;
+    }
+    #rook{
+        color: white;
+        font-size: 30px;
+    }
+    #knight{
+        color: white;
+        font-size: 30px;
+    }
+    #bishop{
+        color: white;
+        font-size: 30px;
+    }
+    #king{
+        color: white;
+        font-size: 30px;
+    }
+    #queen{
+        color: white;
+        font-size: 30px;
+    }
+    #pawn{
+        color: white;
+        font-size: 30px;
+    }
+    .img{
+        font-size: 30px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+    
+
+  <table>
+    
+    <tr>
+      <td class="white"><i class="fa-solid fa-chess-rook img"></i></td>
+      <td class="black"><i id="knight" class="fa-solid fa-chess-knight"></i></td>
+      <td class="white"><i class="fa-solid fa-chess-bishop img"></i></td>
+      <td class="black"><i id="king" class="fa-solid fa-crown "></i></td>
+      <td class="white"><i class="fa-solid fa-chess-queen img"></i></td>
+      <td class="black"><i id="bishop" class="fa-solid fa-chess-bishop"></i></td>
+      <td class="white"><i class="fa-solid fa-chess-knight img"></i></td>
+      <td class="black"><i id="rook" class="fa-regular fa-chess-rook"></i></td>
+    </tr>
+
+   
+    <tr>
+      <td class="black"><i id="pawn" class="fa-regular fa-chess-pawn"></i></td>
+      <td class="white"><i class="fa-regular fa-chess-pawn img"></i></td>
+      <td class="black"><i id="pawn" class="fa-regular fa-chess-pawn"></i></td>
+      <td class="white"><i class="fa-regular fa-chess-pawn img"></i></td>
+      <td class="black"><i id="pawn" class="fa-regular fa-chess-pawn"></i></td>
+      <td class="white"><i class="fa-regular fa-chess-pawn img"></i></td>
+      <td class="black"><i id="pawn" class="fa-regular fa-chess-pawn"></i></td>
+      <td class="white"><i class="fa-regular fa-chess-pawn img"></i></td>
+    </tr>
+
+    
+    <tr>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+    </tr>
+    <tr>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+    </tr>
+
+    
+    <tr>
+      <td class="white"><i class="fa-regular fa-chess-pawn img"></i></td>
+      <td class="black"><i id="pawn" class="fa-regular fa-chess-pawn"></i> </td>
+      <td class="white"><i class="fa-regular fa-chess-pawn img"></i> </td>
+      <td class="black"><i id="pawn" class="fa-regular fa-chess-pawn"></i> </td>
+      <td class="white"><i class="fa-regular fa-chess-pawn img"></i> </td>
+      <td class="black"><i id="pawn" class="fa-regular fa-chess-pawn"></i> </td>
+      <td class="white"><i class="fa-regular fa-chess-pawn img"></i></td>
+      <td class="black"><i  id="pawn" class="fa-regular fa-chess-pawn"></i> </td>
+    </tr>
+
+    <tr>
+        <td class="black"><i id="rook" class="fa-regular fa-chess-rook"></i></td>
+        <td class="white"><i class="fa-solid fa-chess-knight img"></i></td>
+        <td class="black"><i id="bishop" class="fa-solid fa-chess-bishop"></i></td>
+        <td class="white"><i class="fa-solid fa-crown img"></i></td>
+        <td class="black"><i id="queen" class="fa-solid fa-chess-queen"></i></td>
+        <td class="white"><i class="fa-solid fa-chess-bishop img"></i></td>
+        <td class="black"><i id="knight" class="fa-solid fa-chess-knight"></i></td>
+        <td class="white"><i class="fa-regular fa-chess-rook img"></i></td>
+      </tr>
+
+    </table>
+   
+   
+   
+   
+   
+</body>
+</html>
