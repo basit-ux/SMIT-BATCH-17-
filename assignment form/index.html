@@ -1,0 +1,166 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    
+  <center>
+    <h1>LOGIN FORM</h1>
+    
+    
+    
+    
+    <form action="http://127.0.0.1:5500/index1.html">
+       <p>User: <input placeholder="user name"  required="required" type="text" name="" id=""></p>
+       <p>Email Address: <input placeholder="user email "  required="required" type="text" name="" id=""></p>
+       <p>Passwor: <input placeholder="enter email passwor" type="password" name=""  required="required" id=""></p>
+       <p>City Of: <select  required="required" name="" id="">
+        <option value="">Select City</option>
+        <option value="Adilpur">Adilpur</option>
+        <option value="Badin">Badin</option>
+        <option value="Bagarji">Bagarji</option>
+        <option value="Bandhi">Bandhi</option>
+        <option value="Berani">Berani</option>
+        <option value="Bhan">Bhan</option>
+        <option value="Bhiria">Bhiria</option>
+        <option value="Bhit Shah">Bhit Shah</option>
+        <option value="Bozdar Wada">Bozdar Wada</option>
+        <option value="Bulri">Bulri</option>
+       </select></p>
+       <p>Please specify yuor rol: <input required="required" type="radio" name="bass" id="">Admin
+          <input type="radio" name="bass" required="required" id="">Engineer
+          <input type="radio" name="bass" required="required" id="">Manager 
+          <input type="radio" name="bass" required="required" id="">Guest 
+          <input type="radio" name="bass" required="required" id="">ETC</p>
+          <a id="but" href="index1.html" target="_blank"><button>submit</button></a>
+   </form></center> 
+
+
+
+
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            width: 400px;
+            margin: 80px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            margin: 15px 0;
+            font-size: 16px;
+            color: #222;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+        }
+
+        input[type="radio"] {
+            margin: 0 5px 0 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0284c7;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0369a1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>LOGIN FORM</h1>
+
+        <form action="http://127.0.0.1:5500/index1.html">
+            <p>User: 
+                <input placeholder="User name" required type="text">
+            </p>
+            <p>Email Address: 
+                <input placeholder="User email" required type="text">
+            </p>
+            <p>Password: 
+                <input placeholder="Enter password" type="password" required>
+            </p>
+            <p>City Of: 
+                <select required>
+                    <option value="">Select City</option>
+                    <option value="Adilpur">Adilpur</option>
+                    <option value="Badin">Badin</option>
+                    <option value="Bagarji">Bagarji</option>
+                    <option value="Bandhi">Bandhi</option>
+                    <option value="Berani">Berani</option>
+                    <option value="Bhan">Bhan</option>
+                    <option value="Bhiria">Bhiria</option>
+                    <option value="Bhit Shah">Bhit Shah</option>
+                    <option value="Bozdar Wada">Bozdar Wada</option>
+                    <option value="Bulri">Bulri</option>
+                </select>
+            </p>
+            <p>Please specify your role: 
+                <input type="radio" name="role" required> Admin
+                <input type="radio" name="role" required> Engineer
+                <input type="radio" name="role" required> Manager
+                <input type="radio" name="role" required> Guest
+                <input type="radio" name="role" required> ETC
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
